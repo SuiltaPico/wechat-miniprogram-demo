@@ -1,0 +1,37 @@
+.container {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+  cursor: inherit;
+}
+.container:active {
+  background-color: #e0e0e0;
+}
+.container:visited {
+  background-color: inherit;
+}
+.content {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #ddd;
+  margin-left: 1rem;
+  display: flex;
+}
+.author_avatar {
+  max-width: 100rpx;
+  max-height: 100rpx;
+}
+.text-info {
+  padding: 0 0.8rem;
+  text-align: left;
+}
+.title {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-bottom: 0.2rem;
+}
+.published-at {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #757575;
+}

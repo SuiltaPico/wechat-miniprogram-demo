@@ -1,0 +1,10 @@
+{
+  "pages": ["pages/index/index", "pages/NewsDetail/NewsDetail"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

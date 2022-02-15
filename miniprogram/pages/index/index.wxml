@@ -1,0 +1,3 @@
+<view class="container">
+  <news-list></news-list>
+</view>

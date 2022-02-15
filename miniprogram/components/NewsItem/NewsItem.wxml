@@ -1,0 +1,9 @@
+<view class="container" bindtap="onContainerTap">
+  <view class="content">
+    <image src="{{ news_info.author_avatar }}" class="author_avatar" mode="scaleToFill"></image>
+    <view class="text-info">
+      <view class="title">{{ news_info.title }}</view>
+      <view class="published-at">{{ news_info.published_at }}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<view>
+  <text wx:if="{{ error }}">{{ error }}</text>
+  <view wx:else="{{ error }}">
+    <view wx:for="{{ api_results }}" wx:for-item="itemName" wx:key="post_id">
+      <news-item news_info="{{itemName}}"></news-item>
+    </view>
+  </view>
+</view>

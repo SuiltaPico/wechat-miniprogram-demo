@@ -1,0 +1,9 @@
+<view class="container">
+  <text wx:if="{{ error }}">{{ error }}</text>
+  <view wx:else="{{ error }}">
+    <image src="{{ data.cover }}" class="cover" mode="widthFix"></image>
+    <view class="title">{{ data.title }}</view>
+    <view class="meta">{{ data.author_name }} {{ data.updated_at }}</view>
+    <rich-text class="content" nodes="{{ data.content }}"></rich-text>
+  </view>
+</view>
